@@ -39,7 +39,8 @@ A modular, Object-Oriented 3D game engine built from the ground up using C++, Op
 This project is configured to compile and run seamlessly in **Visual Studio Code** using the MinGW `g++` compiler on Windows.
 
 1. Ensure you have a MinGW-w64 `g++` compiler installed.
-2. Open the project folder in Visual Studio Code.
-3. Install the official Microsoft **C/C++** extension if you haven't already.
-4. Press **F5** (or `Run > Start Debugging`). VS Code will automatically compile the source files using the settings defined in `.vscode/tasks.json` and launch the application.
-5. The executable is built into the `build/Debug/` directory. *(Note: `freeglut.dll` must be present in the repository root for the executable to run correctly).*
+2. Download the **GLM** headers and **FreeGLUT** headers and place them in `include/glm/` and `include/GL/` respectively, as these third-party dependencies are excluded from the repository to save space.
+3. Open the project folder in Visual Studio Code.
+4. Install the official Microsoft **C/C++** extension if you haven't already.
+5. Press **F5** (or `Run > Start Debugging`). VS Code will automatically compile the source files using the settings defined in `.vscode/tasks.json` and launch the application.
+6. The executable is built into the `build/Debug/` directory. *(Note: `freeglut.dll` must be present in the repository root for the executable to run correctly).*

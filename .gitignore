@@ -364,3 +364,5 @@ FodyWeavers.xsd
 .vscode/
 build/
 freeglut.dll
+include/glm/
+include/GL/

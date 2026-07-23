@@ -31,7 +31,7 @@ void Engine::Init(int argc, char** argv, int width, int height, const char* titl
     SetupLighting();
 
 
-    GLuint texID = BitmapHandler::LoadTexture("brickjpg.jpg");
+    GLuint texID = BitmapHandler::LoadTexture("assets/brickjpg.jpg");
 
 
     // Position objects

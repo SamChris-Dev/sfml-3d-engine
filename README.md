@@ -1,5 +1,7 @@
 # **3D Graphics Engine (OpenGL/C++)**
 
+![3D Graphics Engine Screenshot](assets/game_engine.png)
+
 A modular, Object-Oriented 3D game engine built from the ground up using C++, OpenGL, FreeGLUT, and GLM. This project implements a full graphics pipeline including hierarchical modeling, custom camera controls, the Phong lighting model, and 2D texture mapping.
 
 ## **Project Structure**

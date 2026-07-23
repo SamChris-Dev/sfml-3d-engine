@@ -1,7 +1,7 @@
-[README.md](https://github.com/user-attachments/files/24485554/README.md)
+[README.md](https://github.com/user-attachments/files/24485535/README.md)
 # **3D Graphics Engine (OpenGL/C++)**
 
-A modular, Object-Oriented 3D game engine built from the ground up using C++, OpenGL, FreeGLUT, and GLM. This project implements a full graphics pipeline including hierarchical modeling, custom camera controls.
+A modular, Object-Oriented 3D game engine built from the ground up using C++, OpenGL, FreeGLUT, and GLM. This project implements a full graphics pipeline including hierarchical modeling, custom camera controls, the Phong lighting model, and 2D texture mapping.
 
 
 
@@ -19,7 +19,9 @@ A modular, Object-Oriented 3D game engine built from the ground up using C++, Op
 
 #### Graphics Pipeline
 
-
+* **Phong Lighting Model:** Real-time calculation of Ambient, Diffuse, and Specular light components.
+* **Shading Modes:** Support for both Flat and Smooth (Gouraud) shading algorithms.
+* **Texture Mapping:** 2D bitmap application with *stb\_image*, supporting various filtering and wrapping modes.
 * **Projection Systems:** Instant switching between Perspective (field of view) and Orthographic (parallel) views.
 
 

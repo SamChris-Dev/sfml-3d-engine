@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: g++.exe build active file",
+      "command": "C:/Users/sam04/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/g++.exe",
+      "args": [
+        "-g",
+        "${workspaceFolder}/src/*.cpp",
+        "-I${workspaceFolder}/include",
+        "-I${workspaceFolder}",
+        "-o",
+        "${workspaceFolder}/build/Debug/outDebug.exe",
+        "-L${workspaceFolder}",
+        "-lfreeglut",
+        "-lglu32",
+        "-lopengl32"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "compiler: C:/Users/sam04/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/g++.exe"
+    }
+  ]
+}
